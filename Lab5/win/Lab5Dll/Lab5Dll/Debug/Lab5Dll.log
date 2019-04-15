@@ -1,0 +1,9 @@
+﻿  SSIF.cpp
+  IAIO.cpp
+  dllMain.cpp
+  AIO.cpp
+c:\users\nikit\onedrive\документы\visual studio 2015\projects\lab5dll\lab5dll\aio.cpp(182): warning C4273: AIOFactory: несовместимая компоновка dll
+  c:\users\nikit\onedrive\документы\visual studio 2015\projects\lab5dll\lab5dll\aio.h(81): note: см. предыдущее определение "AIOFactory"
+  Создание кода...
+     Создается библиотека C:\Users\nikit\OneDrive\Документы\Visual Studio 2015\Projects\Lab5Dll\Debug\Lab5Dll.lib и объект C:\Users\nikit\OneDrive\Документы\Visual Studio 2015\Projects\Lab5Dll\Debug\Lab5Dll.exp
+  Lab5Dll.vcxproj -> C:\Users\nikit\OneDrive\Документы\Visual Studio 2015\Projects\Lab5Dll\Debug\Lab5Dll.dll

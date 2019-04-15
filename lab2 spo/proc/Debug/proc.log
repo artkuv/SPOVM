@@ -1,0 +1,19 @@
+﻿Построение начато Вт 19.03.19 13:02:54.
+     1>Проект "C:\Users\User\Desktop\Универ\СПОВМ\SPO\lab2 spo\proc\proc.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\proc.unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Desktop\Универ\СПОВМ\SPO\lab2 spo\Debug\proc.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\proc.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\User\Desktop\Универ\СПОВМ\SPO\lab2 spo\Debug\proc.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Desktop\Универ\СПОВМ\SPO\lab2 spo\Debug\proc.lib" /MACHINE:X86 Debug\proc.obj
+         proc.vcxproj -> C:\Users\User\Desktop\Универ\СПОВМ\SPO\lab2 spo\Debug\proc.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\User\Desktop\Универ\СПОВМ\SPO\lab2 spo\Debug\proc.exe;#1" /manifest Debug\proc.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\proc.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\proc.lastbuildstate".
+     1>Построение проекта "C:\Users\User\Desktop\Универ\СПОВМ\SPO\lab2 spo\proc\proc.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.46

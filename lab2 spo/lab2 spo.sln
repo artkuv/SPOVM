@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab2 spo", "lab2 spo\lab2 spo.vcxproj", "{C15B7E2D-4BEF-4E1B-95E6-F82C337E085F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "proc", "proc\proc.vcxproj", "{804AEDA6-D067-4CE6-866C-CDEB212F8843}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C15B7E2D-4BEF-4E1B-95E6-F82C337E085F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C15B7E2D-4BEF-4E1B-95E6-F82C337E085F}.Debug|Win32.Build.0 = Debug|Win32
+		{C15B7E2D-4BEF-4E1B-95E6-F82C337E085F}.Release|Win32.ActiveCfg = Release|Win32
+		{C15B7E2D-4BEF-4E1B-95E6-F82C337E085F}.Release|Win32.Build.0 = Release|Win32
+		{804AEDA6-D067-4CE6-866C-CDEB212F8843}.Debug|Win32.ActiveCfg = Debug|Win32
+		{804AEDA6-D067-4CE6-866C-CDEB212F8843}.Debug|Win32.Build.0 = Debug|Win32
+		{804AEDA6-D067-4CE6-866C-CDEB212F8843}.Release|Win32.ActiveCfg = Release|Win32
+		{804AEDA6-D067-4CE6-866C-CDEB212F8843}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

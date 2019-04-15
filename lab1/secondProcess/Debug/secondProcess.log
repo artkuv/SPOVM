@@ -1,0 +1,23 @@
+﻿Построение начато Сб 16.03.19 8:57:52.
+     1>Проект "C:\Users\User\Desktop\Универ\СПОВМ\SPO\lab1\secondProcess\secondProcess.vcxproj" в узле 2 (целевые объекты rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\secondProcess.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Создание "Debug\secondProcess.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt child.cpp
+         child.cpp
+     1>c:\users\user\desktop\универ\сповм\spo\lab1\secondprocess\child.cpp(12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Desktop\Универ\СПОВМ\SPO\lab1\Debug\secondProcess.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\secondProcess.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\User\Desktop\Универ\СПОВМ\SPO\lab1\Debug\secondProcess.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Desktop\Универ\СПОВМ\SPO\lab1\Debug\secondProcess.lib" /MACHINE:X86 Debug\child.obj
+         secondProcess.vcxproj -> C:\Users\User\Desktop\Универ\СПОВМ\SPO\lab1\Debug\secondProcess.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\User\Desktop\Универ\СПОВМ\SPO\lab1\Debug\secondProcess.exe;#1" /manifest Debug\secondProcess.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\secondProcess.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\secondProcess.lastbuildstate".
+     1>Построение проекта "C:\Users\User\Desktop\Универ\СПОВМ\SPO\lab1\secondProcess\secondProcess.vcxproj" завершено (целевые объекты rebuild).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.14
