@@ -12,9 +12,8 @@ DWORD WINAPI ThreadProc(LPVOID LParam) {
 	{
 		EnterCriticalSection(&csection);
 		cout << "Work thread " << GetCurrentThreadId() << endl;
-		Sleep(1000);
 		LeaveCriticalSection(&csection);
-		WaitForSingleObject(GetCurrentThread(), 3000);
+		WaitForSingleObject(GetCurrentThread(), 1000);
 	}
 	ExitThread(0);
 	return 0;
@@ -35,9 +34,9 @@ int main() {
 		if (ch == 'q')
 		{
 			DeleteCriticalSection(&csection);
-			for (size_t i = 0; i < id; i++)
+			for (byte i = 0; i < id; i++)
 			{
-				::TerminateThread(ArrayOfThreads[id - 1], 007);
+				TerminateThread(ArrayOfThreads[id - 1], 0);
 			}
 			exit(0);
 		}
@@ -57,12 +56,13 @@ int main() {
 			if (id > 0)
 			{
 				cout << "kill thread " << GetThreadId(ArrayOfThreads[id - 1]) << endl;
-				::TerminateThread(ArrayOfThreads[id - 1], 0);
+				TerminateThread(ArrayOfThreads[id - 1], 0);
 				id--;
 			}
+			else
+				cout << "No threads" << endl;
 		}
 	}
-	system("pause");
 	return 0;
 }
 

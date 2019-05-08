@@ -1,12 +1,8 @@
-#include "stdafx.h"
 #include "AIO.h"
 #include <filesystem>
 #include <iostream>
 #include <sstream>
 #include <fstream>
-
-using namespace std;
-using namespace A_I_O;
 
 AIO::AIO()
 {

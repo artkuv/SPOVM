@@ -146,14 +146,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="IAIO.h" />
-    <ClInclude Include="SSIF.h" />
-    <ClInclude Include="TVer.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="IAIO.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="SSIF.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

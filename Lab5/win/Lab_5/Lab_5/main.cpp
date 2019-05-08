@@ -1,11 +1,5 @@
-// SPO_DYNAMIC_DLL_LINKING.cpp : Defines the entry point for the console application.
-//
-
-#include "stdafx.h"  
 #include <iostream>
-#include "IAIO.h"
-
-using namespace std;
+#include "IAIO.cpp"
 
 typedef IAIO* (*__cdecl  AIOFactoryMethod)();
 
