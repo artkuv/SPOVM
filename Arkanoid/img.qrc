@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/ball.png</file>
+        <file>img/border_left.png</file>
+        <file>img/border_right.png</file>
+        <file>img/border_top.png</file>
+        <file>img/hexagon_pattern.png</file>
+        <file>img/racket.png</file>
+        <file>icon.ico</file>
+        <file>img/Arkanoid_arcadeflyer.jpg</file>
+    </qresource>
+</RCC>

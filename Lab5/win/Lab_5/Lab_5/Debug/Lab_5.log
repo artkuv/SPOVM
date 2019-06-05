@@ -1,2 +1,5 @@
 ﻿  IAIO.cpp
-  Lab_5.vcxproj -> C:\Users\Максим\Desktop\Lab5\win\Lab_5\Debug\Lab_5.exe
+  main.cpp
+c:\owncloud\vb\spo\lab5\win\lab_5\lab_5\main.cpp(4): warning C4229: устаревший элемент: пропуск модификаторов для данных
+  Создание кода...
+  Lab_5.vcxproj -> C:\owncloud\VB\SPO\Lab5\win\Lab_5\Debug\Lab_5.exe

@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>sounds/hit_cube.wav</file>
+        <file>sounds/hit_racket.wav</file>
+        <file>sounds/hit_unbreakable.wav</file>
+        <file>sounds/lose.wav</file>
+        <file>sounds/hit_border.wav</file>
+        <file>sounds/game_over.wav</file>
+        <file>sounds/next_lvl.wav</file>
+    </qresource>
+</RCC>
