@@ -15,10 +15,10 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
     QPixmap blft(":/img/border_left.png");
     QPixmap btop(":/img/border_top.png");
     QPixmap brght(":/img/border_right.png");
-    bgPix = bgPix.scaled(bgPix.width()*2,bgPix.height()*1.5, Qt::KeepAspectRatio, Qt::SmoothTransformation);
-    blft = blft.scaled(blft.width()*2,blft.height()*1.5, Qt::KeepAspectRatio, Qt::SmoothTransformation);
-    btop = btop.scaled(btop.width()*2,btop.height()*1.5, Qt::KeepAspectRatio, Qt::SmoothTransformation);
-    brght = brght.scaled(brght.width()*2,brght.height()*1.5, Qt::KeepAspectRatio, Qt::SmoothTransformation);
+    bgPix = bgPix.scaled(bgPix.width()*2,bgPix.height()*2, Qt::KeepAspectRatio, Qt::SmoothTransformation);
+    blft = blft.scaled(blft.width()*2,blft.height()*2, Qt::KeepAspectRatio, Qt::SmoothTransformation);
+    btop = btop.scaled(btop.width()*2,btop.height()*2, Qt::KeepAspectRatio, Qt::SmoothTransformation);
+    brght = brght.scaled(brght.width()*2,brght.height()*2, Qt::KeepAspectRatio, Qt::SmoothTransformation);
 
     setFixedSize(btop.width() + brght.width()+5,SCOREHEIGHT + btop.height() + bgPix.height()+25);
     m_scene = new QGraphicsScene(0,0,btop.width() + brght.width(),SCOREHEIGHT + btop.height() + bgPix.height());

@@ -44,7 +44,7 @@ protected:
 
 class RedCube: public BreakableCube {
 public:
-    RedCube(int posx, int posy, int w=CUBESWIDTH, int h=CUBESHEIGHT):BreakableCube(Qt::red,5,posx,posy,w,h) {}
+    RedCube(int posx, int posy, int w=CUBESWIDTH, int h=CUBESHEIGHT):BreakableCube(Qt::red,1,posx,posy,w,h) {}
     ~RedCube(){}
 };
 

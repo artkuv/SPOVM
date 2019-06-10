@@ -35,3 +35,5 @@ RESOURCES += \
     sounds.qrc
 
 DISTFILES +=
+
+STATECHARTS +=

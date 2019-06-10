@@ -177,6 +177,10 @@ void GameEngine::cleanup()
     delete m_ball;
     delete m_player;
     delete m_mtx;
+
+    m_ball = NULL;
+    m_player = NULL;
+    m_mtx = NULL;
 }
 
 void GameEngine::setGameLost(bool p)
@@ -195,7 +199,7 @@ void GameEngine::remPlayer()
 void GameEngine::showGameWon()
 {
     m_gametxt = new QGraphicsTextItem;
-    m_gametxt->setPlainText(QString("GAME WON :)"));
+    m_gametxt->setPlainText(QString("GAME WON"));
     m_gametxt->setDefaultTextColor(Qt::yellow);
     m_gametxt->setFont(QFont("Courier New",48));
     m_gametxt->setPos(10,400);
@@ -205,7 +209,7 @@ void GameEngine::showGameWon()
 void GameEngine::showGameOver()
 {
     m_gametxt = new QGraphicsTextItem;
-    m_gametxt->setPlainText(QString("GAME OVER:("));
+    m_gametxt->setPlainText(QString("GAME OVER"));
     m_gametxt->setDefaultTextColor(Qt::red);
     m_gametxt->setFont(QFont("Courier New",48));
     m_gametxt->setPos(10,400);
